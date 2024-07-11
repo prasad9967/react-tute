@@ -1,5 +1,5 @@
-// import React from "react"
-// import ReactDOM from "react-dom/client"
+import React from "react"
+import ReactDOM from "react-dom/client"
 
 
 // styles = {
@@ -13,7 +13,7 @@ const heading = React.createElement("h1", {id: 'heading'}, "Hello World from Rea
 
 const parent = React.createElement('div',{id:'parent'},[
     React.createElement('div',{id: 'child1'},[
-        React.createElement('h1',{},'Hi iam h1 tag'),
+        React.createElement('h1',{},'Hi iam heading 1 tag'),
         React.createElement('h2',{},'Hi iam h2 tag')
     ])
 ],[
