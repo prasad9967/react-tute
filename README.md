@@ -8,7 +8,6 @@
 - caching - Faster Builds
 - Image Optimization
 - Minification
-- 
 - Bundling
 - Compress
 - Consistent Hashing
