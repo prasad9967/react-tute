@@ -1,5 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
+import Header from "./components/Header"
+import RestaurantCard from "./components/RestaurantCard"
 
 
 // styles = {
@@ -54,43 +56,6 @@ const  FirstComponent = ({name}) => (
 
 
     // Application Creation
-
-    const Header = () => {
-        return (
-            <div className="header">
-                <div>
-                    <img className="logo" src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png" alt="image"/>
-                </div>
-                <div className="nav-items">
-                    <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Contact Us</li>
-                        <li>Cart</li>
-                    </ul>
-                </div>
-            </div>
-        )
-    }
-
-    const styleCard = {
-        backgroundColor: '#f0f0f0f0'
-    }
-
-    const RestaurantCard = (props) => {
-        return (
-            <div className="res-card" style={styleCard}>
-                <img 
-                className="res-logo"
-                src="https://img.freepik.com/premium-photo/large-bowl-food-with-fish-vegetables_197463-2405.jpg" alt="res logo"/>
-                <h3>{props.name}</h3>
-                <h4>Biryani, North Indian, Asian</h4>
-                <h4>4.4 Stars</h4>
-                <h4>38 Minutes</h4>
-            </div>
-        )
-    }
-
     const Body = () => {
         return (
             <>
