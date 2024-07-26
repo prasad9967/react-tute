@@ -60,7 +60,12 @@ const  FirstComponent = ({name}) => (
         return (
             <>
                 <div className="body">
-                    <div className="search">Search</div>
+                    <div className="filter">
+                        <button className="filter-btn" onClick={()=>{
+                            
+                        }}>
+                            Top Rated Restaurant</button>
+                    </div>
                     <div className="res-container">
                         <RestaurantCard name='Meghana Foods'/>
                         <RestaurantCard name='KFC'/>

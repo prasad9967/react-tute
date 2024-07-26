@@ -20,3 +20,6 @@
 - Different dev and prod bundles
 
 
+Two types of Export/Import
+1. Named import/export
+2. Default import/export
