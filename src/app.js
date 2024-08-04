@@ -54,15 +54,26 @@ const  FirstComponent = ({name}) => (
     )
 
 
+import { useState, useEffect } from "react"
 
     // Application Creation
     const Body = () => {
+        const [searchText, setSearchText] = useState('')
+        useEffect(()=>{
+            const data = fetch('')
+        })
+
+        
         return (
             <>
                 <div className="body">
                     <div className="filter">
+                        <div className="search">
+                            <input type="text" className="search-box" onChange={(e)=>setSearchText(e.target.value)}/>
+                            <button className="search-btn" onClick={()=>{}}>Search</button>
+                        </div>
                         <button className="filter-btn" onClick={()=>{
-                            
+                            // filter logic
                         }}>
                             Top Rated Restaurant</button>
                     </div>
